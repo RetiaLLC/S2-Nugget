@@ -13,6 +13,7 @@ The ESP32s2 has many advantages over the ESP8266 used in the origional Wi-Fi Nug
 3) Wi-Fi monitor mode in Python
 4) Support for CircuitPython
 
+The S2 Nugget is supported by Arduino IDE and supports MicroPython and CircuitPython.
 
 ## Quickstart CircuitPython Setup Guide
 
@@ -37,11 +38,7 @@ Go to the section that says "Install, Repair, or Update UF2 Bootloader" and clic
 
 Plug board into a USB port on your computer using a data/sync cable. Make sure it is the only board plugged in, and that a charge-only cable is not being used.
 
-Press and hold down the BOOT or 0 button.
-
-Press and release the RESET or RST button.
-
-Release the BOOT button.
+Press and hold down the BOOT or 0 button, press and release the RESET or RST button, and then release the BOOT button.
 
 In the Chrome browser, navigate to: https://adafruit.github.io/Adafruit_WebSerial_ESPTool/
 
@@ -66,6 +63,18 @@ Go back to https://circuitpython.org/board/lolin_s2_mini/ and download the .UF2 
 Once the .UF2 file downloads, drag and drop it into the drive that appears when you plug in your S2 Nugget
 
 This should automatically install CircuitPython on your S2 Nugget!
+
+### Step 3: Programming in CircuitPython
+
+Download and install Mu Editor from here: https://codewith.mu/
+
+Open Mu editor and select CircuitPython editing mode.
+
+Name your file code.py, this will be automatically run each time the board boots.
+
+Save your code to the board, it will automatically re-run your code each time you save changes to it.
+
+To add files, drag and drop them from your computer to the board.
 
 ## Using the neopixel
 

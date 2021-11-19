@@ -4,14 +4,14 @@ Welcome to the Github repo for the S2 Nugget! The S2 Nugget is a Wi-Fi Nugget br
 
 <img src="https://github.com/HakCat-Tech/S2-Nugget/blob/main/nug2.png?raw=true" alt="S2 Nugget" title="S2 Nugget" width="500"/>
 
-Because the S2 Mini is pin-compadible with the D1 Mini, the origional Wi-Fi Nugget breakout board can be used to make an S2 Nugget by swapping out the D1 mini for an S2 mini.
+Because the S2 Mini is pin-compatible with the D1 Mini, the original Wi-Fi Nugget breakout board can be used to make an S2 Nugget by swapping out the D1 mini for an S2 mini.
 
 <img src="https://github.com/HakCat-Tech/S2-Nugget/blob/main/nug3.png?raw=true" alt="S2 Nugget" title="S2 Nugget" width="500"/>
 
 You can learn more about the ESP32s2 here: https://www.espressif.com/en/products/socs/esp32-s2
 You can learn about the S2 Mini development board here: https://www.wemos.cc/en/latest/s2/s2_mini.html
 
-The ESP32s2 has many advantages over the ESP8266 used in the origional Wi-Fi Nugget, such as:
+The ESP32s2 has many advantages over the ESP8266 used in the original Wi-Fi Nugget, such as:
 1) USB support, allowing you to drag and drop code to a flash drive
 2) HID support, allowing you to do USB rubber ducky style attacks
 3) Wi-Fi monitor mode in Python
@@ -23,7 +23,7 @@ The S2 Nugget is supported by Arduino IDE and supports MicroPython and CircuitPy
 
 <img src="https://github.com/HakCat-Tech/S2-Nugget/blob/main/nug1.png?raw=true" alt="S2 Nugget" title="S2 Nugget" width="500"/>
 
-CircuitPython is a Python based language for controlling hardware supported by Adafruit. 
+CircuitPython is a Python based language for controlling hardware supported by Adafruit.
 The S2 Nugget supports CircuitPython, allowing users to drag and drop code onto the board to program it.
 
 The process for setting up CircuitPython is fast, easy, and requires only a browser and Mu Editor (https://codewith.mu/)
@@ -32,7 +32,7 @@ Learn more about using the S2 Mini with CircuitPython here: https://circuitpytho
 
 ## Setting up CircuitPython
 
-###See setup video here: https://youtu.be/8JJkAxRp8cw
+### See setup video here: https://youtu.be/8JJkAxRp8cw
 
 Thank you to Adafruit for including excellent documentation for setting up CircuitPython, some of which is copied below.
 
@@ -95,3 +95,4 @@ To try loading a bitmap on the screen, load the ScreenTest.py program and follow
 ## Reading Wi-Fi packets
 
 To try out Wi-Fi packet parsing, try out the PacketParsing.py file.
+

@@ -10,7 +10,7 @@ Because the S2 Mini is pin-compatible with the D1 Mini, the original Wi-Fi Nugge
 
 You can learn more about the ESP32s2 here: :point_right: https://www.espressif.com/en/products/socs/esp32-s2
 
-You can learn about the S2 Mini development board here: https://www.wemos.cc/en/latest/s2/s2_mini.html
+You can learn about the S2 Mini development board here: :point_right: https://www.wemos.cc/en/latest/s2/s2_mini.html
 
 The ESP32s2 has many advantages over the ESP8266 used in the original Wi-Fi Nugget, such as:
 1) USB support, allowing you to drag and drop code to a flash drive
@@ -29,7 +29,7 @@ The S2 Nugget supports CircuitPython, allowing users to drag and drop code onto 
 
 The process for setting up CircuitPython is fast, easy, and requires only a browser and Mu Editor (https://codewith.mu/)
 
-Learn more about using the S2 Mini with CircuitPython here: https://circuitpython.org/board/lolin_s2_mini/
+Learn more about using the S2 Mini with CircuitPython here: :point_right: https://circuitpython.org/board/lolin_s2_mini/
 
 ## Setting up CircuitPython
 
@@ -39,7 +39,7 @@ Thank you to Adafruit for including excellent documentation for setting up Circu
 
 ### Step 1: Set up the bootloader to enable USB support
 
-To set up CircuitPython on the S2 Nugget, navigate here: https://circuitpython.org/board/lolin_s2_mini/
+To set up CircuitPython on the S2 Nugget, navigate here: :point_right: https://circuitpython.org/board/lolin_s2_mini/
 
 Go to the section that says "Install, Repair, or Update UF2 Bootloader" and click the purple "Download bootloader ZIP" at the bottom.
 
@@ -47,7 +47,7 @@ Plug board into a USB port on your computer using a data/sync cable. Make sure i
 
 Press and hold down the BOOT or 0 button, press and release the RESET or RST button, and then release the BOOT button.
 
-In the Chrome browser, navigate to: https://adafruit.github.io/Adafruit_WebSerial_ESPTool/
+In the Chrome browser, navigate to: :point_right: https://adafruit.github.io/Adafruit_WebSerial_ESPTool/
 
 Select 460800 Baud from the pull-down menu (top-right).
 
@@ -65,7 +65,7 @@ After the TinyUF2 firmware update is complete, press the RESET button on the boa
 
 ### Step 2: Install CircuitPython
 
-Go back to https://circuitpython.org/board/lolin_s2_mini/ and download the .UF2 file for the latest stable version of CircuitPython
+Go back to :point_right: https://circuitpython.org/board/lolin_s2_mini/ and download the .UF2 file for the latest stable version of CircuitPython
 
 Once the .UF2 file downloads, drag and drop it into the drive that appears when you plug in your S2 Nugget
 
@@ -73,7 +73,7 @@ This should automatically install CircuitPython on your S2 Nugget!
 
 ### Step 3: Programming in CircuitPython
 
-Download and install Mu Editor from here: https://codewith.mu/
+Download and install Mu Editor from here: :point_right: https://codewith.mu/
 
 Open Mu editor and select CircuitPython editing mode.
 

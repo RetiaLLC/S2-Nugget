@@ -2,7 +2,7 @@
 ## Repo for the esp32s2 version of the Wi-Fi Nugget
 Welcome to the Github repo for the S2 Nugget! The S2 Nugget is a Wi-Fi Nugget breakout board combined with an ESP32S2 based S2 Mini development board.
 
-![alt text](https://github.com/HakCat-Tech/S2-Nugget/blob/main/nug2.png?raw=true "S2 Nugget")
+![alt text](https://github.com/HakCat-Tech/S2-Nugget/blob/main/nug2.png?raw=true "S2 Nugget" width="500")
 
 Because the S2 Mini is pin-compadible with the D1 Mini, the origional Wi-Fi Nugget breakout board can be used to make an S2 Nugget by swapping out the D1 mini for an S2 mini.
 

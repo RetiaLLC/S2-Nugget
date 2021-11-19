@@ -9,6 +9,7 @@ Because the S2 Mini is pin-compatible with the D1 Mini, the original Wi-Fi Nugge
 <img src="https://github.com/HakCat-Tech/S2-Nugget/blob/main/nug3.png?raw=true" alt="S2 Nugget" title="S2 Nugget" width="500"/>
 
 You can learn more about the ESP32s2 here: https://www.espressif.com/en/products/socs/esp32-s2
+
 You can learn about the S2 Mini development board here: https://www.wemos.cc/en/latest/s2/s2_mini.html
 
 The ESP32s2 has many advantages over the ESP8266 used in the original Wi-Fi Nugget, such as:

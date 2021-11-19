@@ -16,11 +16,56 @@ The ESP32s2 has many advantages over the ESP8266 used in the origional Wi-Fi Nug
 
 ## Quickstart CircuitPython Setup Guide
 
-Learn more about using the S2 Mini with CircuitPython here: https://circuitpython.org/board/lolin_s2_mini/
+CircuitPython is a Python based language for controlling hardware supported by Adafruit. 
+The S2 Nugget supports CircuitPython, allowing users to drag and drop code onto the board to program it.
 
+The process for setting up CircuitPython is fast, easy, and requires only a browser and Mu Editor (https://codewith.mu/)
+
+Learn more about using the S2 Mini with CircuitPython here: https://circuitpython.org/board/lolin_s2_mini/
 
 ## Setting up CircuitPython
 
+See setup video here: https://youtu.be/8JJkAxRp8cw
+
+Thank you to Adafruit for including excellent documentation for setting up CircuitPython, some of which is copied below.
+
+### Step 1: Set up the bootloader to enable USB support
+
+To set up CircuitPython on the S2 Nugget, navigate here: https://circuitpython.org/board/lolin_s2_mini/
+
+Go to the section that says "Install, Repair, or Update UF2 Bootloader" and click the purple "Download bootloader ZIP" at the bottom.
+
+Plug board into a USB port on your computer using a data/sync cable. Make sure it is the only board plugged in, and that a charge-only cable is not being used.
+
+Press and hold down the BOOT or 0 button.
+
+Press and release the RESET or RST button.
+
+Release the BOOT button.
+
+In the Chrome browser, navigate to: https://adafruit.github.io/Adafruit_WebSerial_ESPTool/
+
+Select 460800 Baud from the pull-down menu (top-right).
+
+Click Connect (top-right).
+
+Select the COM or Serial port from the pop-up window.
+
+After successful connection, click Erase.
+
+After successful erase, click any Choose a file..., then locate and select the combined.bin file unzipped earlier.
+
+After successfully choosing combined.bin, click Program.
+
+After the TinyUF2 firmware update is complete, press the RESET button on the board. A new drive BOOT should be visible in your file browser.
+
+### Step 2: Install CircuitPython
+
+Go back to https://circuitpython.org/board/lolin_s2_mini/ and download the .UF2 file for the latest stable version of CircuitPython
+
+Once the .UF2 file downloads, drag and drop it into the drive that appears when you plug in your S2 Nugget
+
+This should automatically install CircuitPython on your S2 Nugget!
 
 ## Using the neopixel
 

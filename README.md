@@ -32,7 +32,7 @@ Learn more about using the S2 Mini with CircuitPython here: https://circuitpytho
 
 ## Setting up CircuitPython
 
-See setup video here: https://youtu.be/8JJkAxRp8cw
+###See setup video here: https://youtu.be/8JJkAxRp8cw
 
 Thank you to Adafruit for including excellent documentation for setting up CircuitPython, some of which is copied below.
 
@@ -82,13 +82,16 @@ Save your code to the board, it will automatically re-run your code each time yo
 
 To add files, drag and drop them from your computer to the board.
 
+# Coming Soon:
+
 ## Using the neopixel
 
+Open the Neopixel.py program and follow the comments.
 
 ## Controlling the screen
 
+To try loading a bitmap on the screen, load the ScreenTest.py program and follow the comments.
 
 ## Reading Wi-Fi packets
 
-
-## Example Sketches
+To try out Wi-Fi packet parsing, try out the PacketParsing.py file.

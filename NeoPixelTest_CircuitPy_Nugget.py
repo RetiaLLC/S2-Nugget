@@ -13,11 +13,11 @@ num_pixels = 1 # Set number of neopixels (1 if just using the built in neopixel)
 delay = .3   # & delay between color changes in seconds
 pixel = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=0.10)   # Create neopixel and set brightness to 10%
 
-## Let's create a function to set all neopixels to whatever color we want!
+## Let's create a function to set all neopixels to any color we want!
 
-def SetAll(color):   # Define function with one input (color we want to set)
+def SetAll(r,g,b):   # Define function with one input (color we want to set)
     for i in range(0, num_pixels):   # Addressing all neopixels in a loop
-        pixel[i] = (color)   # Set all neopixels a color
+        pixel[i] = (r,g,b)   # Set all neopixels a color
 
 ## Next, let's create a random color using the random function
 
@@ -48,11 +48,11 @@ def RandomChase():   # First we define the function
         pixel[(i-1)] = (0,0,0)   # Turn the neopixel before the random colored one off
         time.sleep(delay)   # Make a brief delay before running the loop again
         SetAll((0, 0, 0))
-
-
+        
+## Now, we can run any of these functions in a loop to see the effect
 
 while True:
-    #SetAll([0,255,0])  # Uncomment this to test setting all neopixels to a single color
+    #SetAll(100,0,255)  # Uncomment this to test setting all neopixels to a single color
     #RandomColor() # Uncomment this to test setting all neopixels to random colors
     VividColor() # Uncomment this to test setting all neopixels to vivid random colors using some math
     #RandomChase() # Uncomment this to test creating a racing animation for neopixel strips

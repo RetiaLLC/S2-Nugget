@@ -89,7 +89,7 @@ In Mu Editor, create a new file, name it "code.py", and save it to your CIRCUITP
 
 Copy or download the following script into your file: https://github.com/HakCat-Tech/S2-Nugget/blob/main/NeoPixelTest_CircuitPy_Nugget.py
 
-At the botton of the script (on lines 55-58), uncomment the function you'd like to test. 
+At the bottom of the script (on lines 55-58), uncomment the function you'd like to test. 
 
 You can choose from:
 

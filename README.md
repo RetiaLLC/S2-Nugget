@@ -94,7 +94,7 @@ At the botton of the script (on lines 55-58), uncomment the function you'd like 
 You can choose from:
 
 
-1) SetAll([0,255,0]) Uncomment this to test setting all neopixels to a single color (set your own values)
+1) SetAll(r,g,b) Uncomment this to test setting all neopixels to a single color (set your own values)
 2) RandomColor() Uncomment this to test setting all neopixels to random colors
 3) VividColor() Uncomment this to test setting all neopixels to vivid random colors using some math
 4) RandomChase() Uncomment this to test creating a racing animation for neopixel strips or rings

@@ -1,5 +1,5 @@
-# S2 Nugget Neopixel Test Sketch
-# This sketch is written to test the built-in neopixel on the S2 Nugget, or an attached neopixel strip
+# S2 Nugget Neopixel Test Sketch by Skickar (@kodykinzie)
+# This CircuitPython program is written to test the built-in neopixel on the S2 Nugget, or an attached neopixel strip
 import board
 import neopixel
 import random

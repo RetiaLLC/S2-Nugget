@@ -99,13 +99,19 @@ You can choose from:
 3) VividColor() Uncomment this to test setting all neopixels to vivid random colors using some math
 4) RandomChase() Uncomment this to test creating a racing animation for neopixel strips or rings
 
+## Reading Wi-Fi packets
+
+To try out Wi-Fi packet parsing, download the Wifi_Deauth_Detector_Example.zip file here: https://github.com/HakCat-Tech/S2-Nugget/blob/main/Wifi_Deauth_Detector_Example.zip
+
+Unzip the .ZIP file, and drag and drop the contents into your CircuitPy board, overwriting the existing /lib folder and code.py
+
+Open Code.py to see the code under the hood, otherwise the code should run and detect deauth packets with a shocked anime face.
+
 # Coming Soon:
 
 ## Controlling the screen
 
 To try loading a bitmap on the screen, load the ScreenTest.py program and follow the comments.
 
-## Reading Wi-Fi packets
 
-To try out Wi-Fi packet parsing, try out the PacketParsing.py file.
 

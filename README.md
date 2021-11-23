@@ -107,14 +107,12 @@ Unzip the .ZIP file, and drag and drop the contents into your CircuitPy board, o
 
 Open Code.py to see the code under the hood, otherwise the code should run and detect deauth packets with a shocked anime face.
 
-# Coming Soon:
-
 ## Controlling the screen
 
 To try loading a bitmap on the screen, download the OLED Bitmap example here: https://github.com/HakCat-Tech/S2-Nugget/blob/main/OLED_Bitmap_Example.zip
 
 Unzip the .ZIP file, and drag and drop the contents into your CircuitPy board, overwriting the existing /lib folder and code.py
 
-Open Code.py, you can drag and drop .BMP images that are 128X64 onto your board and display them by changing the file path in code.py
+You can drag and drop black and white .BMP images that are 128X64 onto your board and display them by changing the file path in code.py
 
 

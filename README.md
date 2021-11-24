@@ -22,6 +22,8 @@ The ESP32s2 has many advantages over the ESP8266 used in the original Wi-Fi Nugg
 
 The S2 Nugget is supported by Arduino IDE and supports MicroPython and CircuitPython.
 
+Get started working with the S2 Nugget on the Wiki: https://github.com/HakCat-Tech/S2-Nugget/wiki
+
 ## Quickstart CircuitPython Setup Guide
 
 <img src="https://github.com/HakCat-Tech/S2-Nugget/blob/main/nug1.png?raw=true" alt="S2 Nugget" title="S2 Nugget" width="500"/>

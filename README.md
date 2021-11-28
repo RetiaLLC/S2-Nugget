@@ -1,5 +1,5 @@
 # S2-Nugget
-## Repo for the esp32s2 version of the Wi-Fi Nugget
+## Repo for the S2 Wi-Fi Nugget, a cat-shaped esp32s2 breakout board
 
 ## You can buy an S2 Nugget and support our team here: https://retia.io/products/wi-fi-nugget-s2-nugget-esp32s2
 

@@ -1,8 +1,9 @@
 # S2-Nugget
 ## Repo for the esp32s2 version of the Wi-Fi Nugget
-Welcome to the Github repo for the S2 Nugget! The S2 Nugget is a Wi-Fi Nugget breakout board combined with an ESP32S2 based S2 Mini development board.
 
-You can buy an S2 Nugget and support our team here: https://retia.io/products/wi-fi-nugget-s2-nugget-esp32s2
+## You can buy an S2 Nugget and support our team here: https://retia.io/products/wi-fi-nugget-s2-nugget-esp32s2
+
+Welcome to the Github repo for the S2 Nugget! The S2 Nugget is a Wi-Fi Nugget breakout board combined with an ESP32S2 based S2 Mini development board.
 
 <img src="https://github.com/HakCat-Tech/S2-Nugget/blob/main/nug2.png?raw=true" alt="S2 Nugget" title="S2 Nugget" width="500"/>
 

@@ -133,4 +133,6 @@ You'll find 3 examples, which include:
 * Simple_HID_Payload - Bare-bones HID payload to inject keystrokes, currently set for MacOS to "curl parrot.live" which makes a dancing parrot appear.
 * Mouse_Jiggler - Turns the S2 Nugget into a mouse jiggler. When the right button is pressed, the mouse is moved randomly to keep the screen from locking.
 
+You can easily add payloads for your own operating system! To run an example, make a copy of the script and rename it "code.py", overwriting the old "code.py" file.
 
+Your S2 Nugget will automatically reload and run the current code.py script.

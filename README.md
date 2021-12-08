@@ -122,7 +122,7 @@ You can drag and drop black and white .BMP images that are 128X64 onto your boar
 
 ## HID Attack Examples
 
-The S2 Nugget supports HID attacks! You can pretend to be a keyboard or mouse to send keystrokes or control the mouse.
+The S2 Nugget supports HID attacks! You can pretend to be a keyboard or mouse to send keystrokes or control mouse movements.
 
 To try out the HID attack examples, download the ZIP file here: https://github.com/HakCat-Tech/S2-Nugget/blob/main/HID_Examples.zip
 

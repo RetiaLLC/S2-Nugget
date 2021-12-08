@@ -120,4 +120,17 @@ Unzip the .ZIP file, and drag and drop the contents into your CircuitPy board, o
 
 You can drag and drop black and white .BMP images that are 128X64 onto your board and display them by changing the file path in code.py
 
+## HID Attack Examples
+
+The S2 Nugget supports HID attacks! You can pretend to be a keyboard or mouse to send keystrokes or control the mouse.
+
+To try out the HID attack examples, download the ZIP file here: https://github.com/HakCat-Tech/S2-Nugget/blob/main/HID_Examples.zip
+
+Unzip the .ZIP file, and drag and drop the contents into your CircuitPy board, overwriting the existing /lib folder and code.py
+
+You'll find 3 examples, which include:
+* MacOS_HID_Payload - Pretends to be a keyboard, when inserted into MacOS computer, opens a terminal window and injects a payload. Currently set to "curl parrot.live" which makes a dancing parrot appear. Uses the screen on the S2 Nugget to show the status of the payload.
+* Simple_HID_Payload - Bare-bones HID payload to inject keystrokes, currently set for MacOS to "curl parrot.live" which makes a dancing parrot appear.
+* Mouse_Jiggler - Turns the S2 Nugget into a mouse jiggler. When the right button is pressed, the mouse is moved randomly to keep the screen from locking.
+
 

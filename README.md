@@ -131,7 +131,8 @@ Unzip the .ZIP file, and drag and drop the contents into your CircuitPy board, o
 You'll find 3 examples, which include:
 * MacOS_HID_Payload - Pretends to be a keyboard, when inserted into MacOS computer, opens a terminal window and injects a payload. Currently set to "curl parrot.live" which makes a dancing parrot appear. Uses the screen on the S2 Nugget to show the status of the payload.
 * Simple_HID_Payload - Bare-bones HID payload to inject keystrokes, currently set for MacOS to "curl parrot.live" which makes a dancing parrot appear.
-* Mouse_Jiggler - Turns the S2 Nugget into a mouse jiggler. When the right button is pressed, the mouse is moved randomly to keep the screen from locking.
+* Screen_Mouse_Jiggler - Turns the S2 Nugget into a mouse jiggler. When the right button is pressed, the mouse is moved randomly. On screen instructions.
+* Simple_Mouse_Jiggler - Bare-bones mouse jiggler with no screen or neopixel indicator
 
 You can easily add payloads for your own operating system! 
 For more CircuiptPython HID documentation, see here: https://circuitpython.readthedocs.io/projects/hid/en/latest/

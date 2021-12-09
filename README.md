@@ -124,7 +124,7 @@ You can drag and drop black and white .BMP images that are 128X64 onto your boar
 
 The S2 Nugget supports HID attacks! You can pretend to be a keyboard or mouse to send keystrokes or control mouse movements.
 
-To try out the HID attack examples, download the ZIP file here: https://github.com/HakCat-Tech/S2-Nugget/blob/main/HID_Examples.zip
+To try out the HID attack examples, download the ZIP file here: https://github.com/HakCat-Tech/S2-Nugget/blob/main/HID_Attack_CircuitPython_Examples.zip
 
 Unzip the .ZIP file, and drag and drop the contents into your CircuitPy board, overwriting the existing /lib folder and code.py
 
